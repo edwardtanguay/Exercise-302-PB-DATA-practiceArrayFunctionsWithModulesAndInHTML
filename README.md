@@ -9,6 +9,7 @@ Use basic JavaScript module export/import and DOM/HTML skills to create a websit
 - in the `package.json` file add the entry `"type":"module"` **so that you can use ES6 import/export**
 
 ![grafik](https://user-images.githubusercontent.com/446574/156308171-389fccff-b314-4b6e-9745-2ccd9a10eb77.png)
+
 - create a test module called `test.js`
 ```
 export const test = 'module works';
@@ -28,7 +29,8 @@ console.log(test);
 
 - create `customers.js` module by copying [this customers JSON text](https://raw.githubusercontent.com/graphql-compose/graphql-compose-examples/master/examples/northwind/data/json/customers.json) into a file exporting it as an array:
 
-![grafik](https://user-images.githubusercontent.com/446574/156310437-bd056ed6-1942-403e-8989-ba5673194806.png)
+![grafik](https://user-images.githubusercontent.com/446574/156311218-6ad51e6d-5a85-43c4-83a9-42f2239a9e74.png)
+
 - in `main.js` import the customers array and display the number of customers:
 ```
 import { customers } from './customers.js';
