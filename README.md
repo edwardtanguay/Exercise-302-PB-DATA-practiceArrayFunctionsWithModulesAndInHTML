@@ -26,7 +26,10 @@ console.log(test);
 
 ## Practice ES6 functions in JavaScript file with import/export
 
-- set up new project in new directory
+- create `customers.js` module by copying [the customers JSON text](https://raw.githubusercontent.com/graphql-compose/graphql-compose-examples/master/examples/northwind/data/json/categories.json) into a file exporting it as an array:
+
+![grafik](https://user-images.githubusercontent.com/446574/156310437-bd056ed6-1942-403e-8989-ba5673194806.png)
+
 
 
 
