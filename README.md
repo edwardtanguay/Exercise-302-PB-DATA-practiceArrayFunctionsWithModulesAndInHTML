@@ -53,7 +53,7 @@ console.log(`There are ${customers.length} customers.`);
 
 ## Practice ES6 functions in JavaScript file with import/export
 
-- 1. display all company names of customers
+- (1) display all company names of customers
 ```
 customers.forEach(customer => console.log(customer.companyName));
 ```
