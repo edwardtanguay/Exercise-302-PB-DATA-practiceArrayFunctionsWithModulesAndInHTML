@@ -6,7 +6,7 @@ Use basic JavaScript module export/import and DOM/HTML skills to create a websit
 
 - make sure you are in an empty folder to create a new npm project
 - type `npm init -y` to create a basic `package.json` file
-- in the `package.json` file add the entry `"type":"module"` so that you can use ES6 import/export
+- in the `package.json` file add the entry `"type":"module"` **so that you can use ES6 import/export**
 ![grafik](https://user-images.githubusercontent.com/446574/156308171-389fccff-b314-4b6e-9745-2ccd9a10eb77.png)
 
 
