@@ -1,6 +1,6 @@
-# Practice array functions with modules and in HTML
+# Practice array functions with modules
 
-Use basic JavaScript module export/import and DOM/HTML skills to create a website where you can practice using the ES6 higher-order functions
+Use JavaScript modules to practice using the ES6 higher-order functions.
 
 ## Set up new npm project in new directory
 
