@@ -57,8 +57,9 @@ console.log(`There are ${customers.length} customers.`);
 ```
 customers.forEach(customer => console.log(customer.companyName));
 ```
+- (2) display **city - customerName** 
 
-![grafik](https://user-images.githubusercontent.com/446574/156313753-977fc718-7bfd-4796-ae8a-848b63421684.png)
+![grafik](https://user-images.githubusercontent.com/446574/156314331-0c4d5c1b-e9d5-4423-b586-03fb6de4a2a3.png)
 
 
 
