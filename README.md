@@ -8,6 +8,16 @@ Use basic JavaScript module export/import and DOM/HTML skills to create a websit
 - type `npm init -y` to create a basic `package.json` file
 - in the `package.json` file add the entry `"type":"module"` **so that you can use ES6 import/export**
 ![grafik](https://user-images.githubusercontent.com/446574/156308171-389fccff-b314-4b6e-9745-2ccd9a10eb77.png)
+- create a test module called `test.js`
+```
+export const test = 'module works';
+```
+- create your main file called `main.js` and import and use the test module
+```
+import { test } from './test.js';
+
+console.log(test);
+```
 
 
 ## Practice ES6 functions in JavaScript file with import/export
