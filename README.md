@@ -24,13 +24,20 @@ console.log(test);
 ![grafik](https://user-images.githubusercontent.com/446574/156309658-48e08584-5f2f-4d50-b300-b36c7952ca06.png)
 
 
-## Practice ES6 functions in JavaScript file with import/export
+## Setup data modules (customers, orders, products)
 
-- create `customers.js` module by copying [the customers JSON text](https://raw.githubusercontent.com/graphql-compose/graphql-compose-examples/master/examples/northwind/data/json/categories.json) into a file exporting it as an array:
+- create `customers.js` module by copying [this customers JSON text](https://raw.githubusercontent.com/graphql-compose/graphql-compose-examples/master/examples/northwind/data/json/categories.json) into a file exporting it as an array:
 
 ![grafik](https://user-images.githubusercontent.com/446574/156310437-bd056ed6-1942-403e-8989-ba5673194806.png)
+- in `main.js` import the customers array and display the number of customers:
+```
+import { customers } from './customers.js';
+
+console.log(`There are ${customers.length} customers.`);
+```
 
 
+## Practice ES6 functions in JavaScript file with import/export
 
 
 ## Practice ES6 functions in HTML with import/export
