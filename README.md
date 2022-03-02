@@ -19,7 +19,7 @@ import { test } from './test.js';
 
 console.log(test);
 ```
-- test with `node main.js` and you should see:
+- type `node main.js` and you should see:
 
 ![grafik](https://user-images.githubusercontent.com/446574/156309658-48e08584-5f2f-4d50-b300-b36c7952ca06.png)
 
