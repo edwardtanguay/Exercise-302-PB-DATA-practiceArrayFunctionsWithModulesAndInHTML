@@ -64,6 +64,11 @@ customers.forEach(customer => console.log(customer.companyName));
 
 ![grafik](https://user-images.githubusercontent.com/446574/156314331-0c4d5c1b-e9d5-4423-b586-03fb6de4a2a3.png)
 
+- (3) display **city - customerName** only for those from London
+
+![grafik](https://user-images.githubusercontent.com/446574/156314828-24305e01-03c1-49d2-8318-16be7d485bc7.png)
+
+![grafik](https://user-images.githubusercontent.com/446574/156314859-23f09fa7-6f8f-4ab8-908c-f1837ff266cf.png)
 
 
 ## Practice ES6 functions in HTML with import/export
