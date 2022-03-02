@@ -41,6 +41,8 @@ console.log(`There are ${customers.length} customers.`);
 
 ![grafik](https://user-images.githubusercontent.com/446574/156311349-9dac871a-f114-476c-aef8-7c454644aca6.png)
 
+- do the same for [orders](https://raw.githubusercontent.com/graphql-compose/graphql-compose-examples/master/examples/northwind/data/json/orders.json) and [products](https://raw.githubusercontent.com/graphql-compose/graphql-compose-examples/master/examples/northwind/data/json/products.json)
+
 
 ## Practice ES6 functions in JavaScript file with import/export
 
