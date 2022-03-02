@@ -65,5 +65,28 @@ console.log(`There are ${customers.length} customers.`);
 
 ![grafik](https://user-images.githubusercontent.com/446574/156314859-23f09fa7-6f8f-4ab8-908c-f1837ff266cf.png)
 
+- (4) create function `displayCustomerOrders(customerId)` which returns a string the following information:
+    - `console.log(displayCustomerOrders('AROUT'));`
+    - returns **Around the Horn (AROUT) has 14 orders**
 
-## Practice ES6 functions in HTML with import/export
+- (5) create function `getCustomerOrderObject(customerId)` which returns an objects the following information:
+    - `console.log(getCustomerOrderObject('AROUT'));`
+    - returns:
+```
+{
+  id: 'AROUT',
+  name: 'Around the Horn',
+  orderIds: ['10741', '10743', '10920', ...]
+}
+```
+
+
+- (6) create function `getProductsOrderedByCustomer(customerId)` which returns an array of the names of products a customer has ordered:
+```
+[
+  'Valkoinen suklaa',
+  'Guaraná Fantástica',
+  'Ravioli Angelo',
+  ...
+]
+```
