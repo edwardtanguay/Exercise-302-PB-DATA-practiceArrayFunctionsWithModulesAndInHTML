@@ -26,7 +26,7 @@ console.log(test);
 
 ## Setup data modules (customers, orders, products)
 
-- create `customers.js` module by copying [this customers JSON text](https://raw.githubusercontent.com/graphql-compose/graphql-compose-examples/master/examples/northwind/data/json/categories.json) into a file exporting it as an array:
+- create `customers.js` module by copying [this customers JSON text](https://raw.githubusercontent.com/graphql-compose/graphql-compose-examples/master/examples/northwind/data/json/customers.json) into a file exporting it as an array:
 
 ![grafik](https://user-images.githubusercontent.com/446574/156310437-bd056ed6-1942-403e-8989-ba5673194806.png)
 - in `main.js` import the customers array and display the number of customers:
