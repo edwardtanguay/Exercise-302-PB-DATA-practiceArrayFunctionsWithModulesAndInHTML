@@ -37,6 +37,9 @@ import { customers } from './customers.js';
 
 console.log(`There are ${customers.length} customers.`);
 ```
+- execute `node main.js` and you should see:
+
+![grafik](https://user-images.githubusercontent.com/446574/156311349-9dac871a-f114-476c-aef8-7c454644aca6.png)
 
 
 ## Practice ES6 functions in JavaScript file with import/export
