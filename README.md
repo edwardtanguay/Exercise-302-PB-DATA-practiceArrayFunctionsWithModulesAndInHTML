@@ -42,6 +42,14 @@ console.log(`There are ${customers.length} customers.`);
 ![grafik](https://user-images.githubusercontent.com/446574/156311349-9dac871a-f114-476c-aef8-7c454644aca6.png)
 
 - in similar way, create data modules for [orders](https://raw.githubusercontent.com/graphql-compose/graphql-compose-examples/master/examples/northwind/data/json/orders.json) and [products](https://raw.githubusercontent.com/graphql-compose/graphql-compose-examples/master/examples/northwind/data/json/products.json)
+- your `main.js` should look like this:
+
+![grafik](https://user-images.githubusercontent.com/446574/156313091-fad26490-9f57-4677-9b1f-b013699714f2.png)
+
+- and when you execute it, you should see this:
+- 
+![grafik](https://user-images.githubusercontent.com/446574/156313126-674d876a-e272-4403-b7ae-9ccb636d0d67.png)
+
 
 
 ## Practice ES6 functions in JavaScript file with import/export
