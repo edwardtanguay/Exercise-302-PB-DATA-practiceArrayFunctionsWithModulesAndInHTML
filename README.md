@@ -83,10 +83,15 @@ console.log(`There are ${customers.length} customers.`);
 
 - (6) create function `getProductsOrderedByCustomer(customerId)` which returns an array of the names of products a customer has ordered:
 ```
-[
-  'Valkoinen suklaa',
-  'Guaraná Fantástica',
-  'Ravioli Angelo',
-  ...
-]
+{
+  id: 'AROUT',
+  name: 'Around the Horn',
+  orderedProducts: [
+     'Valkoinen suklaa',
+     'Guaraná Fantástica',
+     'Ravioli Angelo',
+     ...
+   ]
+}
+
 ```
